@@ -54,5 +54,6 @@
   .profile__name {
     display: block;
     margin-bottom: 6px;
+    font-weight: 500;
   }
 </style>

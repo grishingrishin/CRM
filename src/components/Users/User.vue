@@ -180,6 +180,7 @@
   .user__name {
     margin: 28px 0;
     text-align: center;
+    font-weight: 500;
     font-size: 22px;
     line-height: 26px;
   }
@@ -212,6 +213,11 @@
   .user__cell {
     text-align: center;
     vertical-align: middle;
+    font-weight: 500;
+  }
+
+  .user__row:nth-child(even) .user__cell {
+    color: #333; 
   }
 
   .user__data {
@@ -228,6 +234,6 @@
   }
 
   .user__spec {
-    font-weight: bold;
+    font-weight: 500;
   }
 </style>

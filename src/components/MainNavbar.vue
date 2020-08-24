@@ -73,13 +73,14 @@
     display: flex;
     padding: 11px 18px 12px;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     background-color: #567354;
     border-radius: 24px;
   }
 
   .nav__link.selected {
+    font-weight: 500;
     color: #567354;
     background-color: #fff;
   }
